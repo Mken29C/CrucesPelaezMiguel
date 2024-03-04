@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -52,4 +56,23 @@ header nav a:hover {
         width: 100%;
         text-align: center;
     }
+}
+
+.container-inicio,
+.proyectos {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 18em;
+    width: 75%;
+}
+
+.container-inicio .img {
+    margin: 0 auto;
+}
+
+.container-inicio .img img{
+    width: auto;
+    height: 15em;
+    margin: auto;
 }
